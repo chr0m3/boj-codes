@@ -1,7 +1,3 @@
-count_case = int(input())
-cases = list()
-
-
 def calc_average(case):
     sum = 0
     count = int(case[0])
@@ -18,6 +14,9 @@ def count_average(case, average):
             count += 1
     return count
 
+
+count_case = int(input())
+cases = list()
 
 for i in range(0, count_case):
     cases.append(list(input().split()))
