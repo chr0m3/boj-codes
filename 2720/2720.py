@@ -9,4 +9,4 @@ for i in range(0, test_cases):
     nickel = int(money / 5)
     penny = money % 5
 
-    print("%d %d %d %d" % (quarter, dime, nickel, penny))
+    print('%d %d %d %d' % (quarter, dime, nickel, penny))
