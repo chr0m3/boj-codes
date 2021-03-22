@@ -8,6 +8,7 @@ for i in range(0, 9):
 height.sort()
 
 for i in itertools.combinations(height, 7):
+    print(i)
     if sum(i) == 100:
         for j in i:
             print(j)
